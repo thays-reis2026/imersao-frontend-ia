@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THAFLIX</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <header class="app-header">
+            <div class="brand-logo" aria-label="THAFLIX logo">
+                <span class="brand-symbol">T</span>
+                <span class="brand-name">THAFLIX</span>
+            </div>
+            <div class="control-group">
+                <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Alternar tema">
+                    <span class="theme-icon" aria-hidden="true">☀</span>
+                    <span class="theme-label">Light mode</span>
+                </button>
+                <button id="manage-profiles" class="profile-action" type="button">Gerenciar perfis</button>
+                <button id="add-profile" class="profile-action" type="button">Adicionar perfil</button>
+            </div>
+        </header>
+        <section aria-label="Profile selection">
+            <h1>Who's Watching?</h1>
+            <ul class="container">
+                <li class="profile">
+                    <a href="catalogo.html" class="profile-link" data-name="Thays" data-img="assets/images/perfil-1.jpg">
+                        <figure>
+                            <img src="assets/images/perfil-1.jpg"
+                                alt="Thays's profile picture.">
+                            <figcaption>Thays</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="profile">
+                    <a href="catalogo.html" class="profile-link" data-name="Family" data-img="assets/images/perfil-2.jpg">
+                        <figure>
+                            <img src="assets/images/perfil-2.jpg"
+                                alt="Family profile picture.">
+                            <figcaption>Family</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="profile">
+                    <a href="catalogo.html" class="profile-link" data-name="Watermelon" data-img="assets/images/perfil-3.jpg">
+                        <figure>
+                            <img src="assets/images/perfil-3.jpg"
+                                alt="Watermelon profile picture.">
+                            <figcaption>Watermelon</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="profile">
+                    <a href="catalogo.html" class="profile-link" data-name="Orange" data-img="assets/images/perfil-4.jpg">
+                        <figure>
+                            <img src="assets/images/perfil-4.jpg"
+                                alt="Orange profile picture.">
+                            <figcaption>Orange</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+            <h3>Want to Watch? Enter your email to create or restart your subscription!</h3>
+            <form class="subscribeform">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <button class="submit">Get Started ➜</button>
+            </form>
+        </section>
+    </main> 
+    <script src="js/index.js"></script>
+</body>
+
+</html>
