@@ -19,3 +19,7 @@ O THAFLIX é uma interface dinâmica de streaming desenvolvida durante a **Imers
 * HTML5 / CSS3 (Grid & Flexbox)
 * JavaScript (ES6+)
 * Desenvolvimento auxiliado por IA
+
+🔗 **Link do Projeto**
+
+[THAFLIX: Streaming Interface - CLIQUE AQUI](https://thays-reis2026.github.io/imersao-frontend-ia/)
